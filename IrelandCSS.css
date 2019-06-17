@@ -1,0 +1,296 @@
+#social-buttons button {
+color: #000000;
+}
+
+#social-buttons {
+background-color: #527a7a;
+text-align: center;
+color: #ffffff;
+}
+
+#social-buttons p {
+font-size:15pt;
+}
+
+#send-button {
+  width: 150px;
+  height: 50px;
+  background: #0066A2;
+  color: #ffffff;
+}
+
+.zoom {
+  zoom: 110%;
+}
+
+.btn-twitter {
+background-color: #00acee;
+border-color: #009ad5;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
+}
+.btn-facebook {
+background-color: #4868ac;
+border-color: #314776;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
+}
+.btn-pinterest {
+background-color: #b62f26;
+border-color: #b62f26;
+text-align: center;
+color: #FFFFFF;
+border-style: outset;
+height: 50px;
+width: 100px;
+font: bold 15px arial, sans-serif;
+text-shadow:none;
+padding: 10px;
+}
+
+.jumbotron {
+height:480px;
+background-image:url("images/Ireland.jpg");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+text-align:center;
+margin:auto;
+padding:0;
+}
+
+#heading {
+color: #ffffff;
+text-align: center;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+font-size: 95pt;
+font-family:"Garamond", sans-serif;
+font-weight: bold;
+line-height:2.5;
+}
+
+#overview {
+background-color: #fcfcfc;
+text-align: center;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 80px;
+padding-left: 40px;
+}
+
+#overview_p {
+text-align: center;
+font-size: 20px;
+}
+
+#irishstew {
+background-color: #408000;
+color: #f2f2f2;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 40px;
+padding-left: 80px;
+}
+
+#irishstewimage {
+  width:500px;
+  display: block;
+  margin: auto;
+  float: right;
+  right: 100px;
+  border:7px solid #ffffff;
+}
+
+#ingredients {
+  font-size: 18px;
+  font-family:"Garamond", sans-serif;
+}
+#Method {
+  font-size: 20px;
+  font-family:"Garamond", sans-serif;
+}
+
+#chocolateguinnesscake {
+background-color: #fcfcfc;
+padding-top: 40px;
+padding-right: 80px;
+padding-bottom: 40px;
+padding-left: 80px;
+}
+
+#chocolateguinnesscakeimage {
+  width:500px;
+  display: block;
+  margin: auto;
+  float: right;
+  right: 100px;
+  border:7px solid #ffffff;
+}
+
+
+body {
+  padding-top: 50px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index:999;
+ }
+
+.sf-back-to-top {
+    background-color: #50A1CB; /* button color */
+    color: #ffffff; /* text/arrow color */
+    display: none;
+    z-index: 999;
+    /* float in bottom right corner */
+    /* 20 pixels from edge */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    /* size of button is 50 pixels*/
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* round button */
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+a.sf-back-to-top {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.6;
+    padding-left: 2px;
+    padding-top: 4px;
+}
+
+a.sf-back-to-top .arrow:before {
+    content: "\e02d";
+    font-family: 'squarespace-ui-font';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    content: "\e02d";
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    cursor: pointer;
+    margin-left: -4px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 350%;
+  font-family:"Garamond", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 300%;
+  font-family:"Garamond", sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-family:"Garamond", sans-serif;
+  font-weight: bold;
+
+
+
+/*dynamic form*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+
+#social-buttons {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+margin: 0 auto;
+background-color: #354044;
+font-size: 16px;
+}
+
+#contactform {
+  margin-bottom: 20px;
+}
+
+input {
+  max-width: 400px;
+  width: 80%;
+  height: 1.8rem;
+  border: 0;
+}
+
+textarea {
+  max-width: 1000px;
+  border: 0;
+  height: 150px;
+}
+
+label {
+  color:#cdccd0;
+}
+
+button {
+  background-color: #98554F;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 150px;
+  width: 80%;
+  border: 0;
+  color: #FDFEFF;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #FDFEFF;
+  color: #98554F;
+}
+
+.btn-twitter {  background-color: #98554F;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 150px;
+  width: 80%;
+  border: 0;
+  color: #FDFEFF;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.btn-twitter:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #FDFEFF;
+  color: #98554F;
+}
